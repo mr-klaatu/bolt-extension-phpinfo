@@ -1,0 +1,20 @@
+{
+    "name": "mr-klaatu/phpinfo",
+    "description": "Phpinfo page extension for bolt",
+    "type": "bolt-extension",
+    "require": {
+        "bolt/bolt": ">3.0,<4.0"
+    },
+    "license": "MIT",
+    "authors": [{"name": "Mr Klaatu", "email": "mr_klaatu@me.com", "role": "Developer"}],
+    "keywords": [ "phpinfo", "ui", "dashboard"  ],
+    "autoload": {
+        "psr-4": {
+            "Bolt\\Extensions\\mr-klaatu\\phpinfo\\": "src"
+        }
+    },
+    "extra": {
+        "bolt-assets": "assets",
+        "bolt-class": "Bolt\\Extensions\\Mr-Klaatu\\Phpinfo\\PhpInfoExtension"
+    }
+}
